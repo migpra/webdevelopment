@@ -1,0 +1,42 @@
+.clock{
+    height:500px;
+    width:500px;
+    background-color:white;
+    border-radius: 50%;
+    margin:auto;
+    border: 30px solid red;
+    padding:20px;
+    box-shadow: rgba(red, green, blue, alpha);
+}
+.sec{
+    height:250px;
+    width:5px;
+    background:black;
+    left: 250px;
+    z-index:3;
+}
+.min{
+    height:225x;
+    width:10px;
+    left:50%;
+    background:black;
+    z-index: 2;
+    top:50%;
+    border-radius: 10px;
+    
+}
+.hour{
+    height:150px;
+    width:14px;
+    background:black;
+    left:49%;
+    z-index: 1;
+    top:50%;
+    border-radius:5px;
+
+}
+.sec,.hour,.min{
+    position:relative;
+
+} 
+
